@@ -4,7 +4,7 @@ import { Container } from '@mui/system'
 import io from 'socket.io-client'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 
-const socket = io.connect('http://localhost:4000')
+const socket = io.connect('https://secret-waters-01768.herokuapp.com')
 
 const Index = () => {
   const [msg, setMsg] = useState({ message: '', user: '' })
